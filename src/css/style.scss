@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+// NavBar
+@import "./_NavBar.scss";
+
+// NavBar1
+@import "./_NavBar1.scss";
+
+// FirstPage
+@import "./_FirstPage.scss";

@@ -1,0 +1,65 @@
+.NavBar1 {
+    width: 100%;
+    // border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: white;
+    position: fixed;
+    transform: translateY(-450px);
+    transition: 1s;
+    z-index: 1000;
+
+    @media (min-width:980px) {
+        display: none;
+    }
+
+    // display: none;
+
+    .NavBar1In {
+        width: 95%;
+        min-width: 500px;
+        background-color: #25434D;
+        padding: 10px 0px;
+        border-radius: 15px;
+        border: 2px solid black;
+
+
+        .listServices {
+            // border: 2px solid red;
+
+
+
+            ul {
+                list-style: none;
+
+                li {
+                    // border: 2px solid red;
+                    margin: 20px 0px;
+                    padding: 0px 20px;
+                    cursor: pointer;
+
+
+                    select {
+                        background: transparent;
+                        border: none;
+                        outline: none;
+                        font-size: 16px;
+                        cursor: pointer;
+                        color: white;
+
+                        option {
+                            color: black;
+                        }
+                    }
+                }
+            }
+        }
+
+
+    }
+
+
+
+}

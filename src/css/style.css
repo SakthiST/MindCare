@@ -1,0 +1,423 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.NavBar {
+  height: 70px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: fixed;
+  z-index: 1001;
+}
+
+.NavBar .NavIn {
+  height: 100%;
+  width: 95%;
+  min-width: 500px;
+  border-radius: 15px;
+  padding: 0px 25px;
+  background-color: #25434D;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.NavBar .NavIn .Mindcar {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.NavBar .NavIn .Mindcar span {
+  font-size: 30px;
+  font-family: 'Great Vibes', cursive;
+}
+
+@media (max-width: 980px) {
+  .NavBar .NavIn .listServices {
+    display: none;
+  }
+}
+
+.NavBar .NavIn .listServices ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+}
+
+.NavBar .NavIn .listServices ul li {
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.NavBar .NavIn .listServices ul li select {
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.NavBar .NavIn .listServices ul li select option {
+  color: black;
+}
+
+.NavBar .NavIn .login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.NavBar .NavIn .login > * {
+  margin: 0px 18px;
+}
+
+@media (max-width: 980px) {
+  .NavBar .NavIn .login > * {
+    margin: 0px 25px;
+  }
+}
+
+.NavBar .NavIn .login button {
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #A7E8E0;
+  color: black;
+  cursor: pointer;
+}
+
+.NavBar .NavIn .Menu {
+  display: none;
+}
+
+@media (max-width: 980px) {
+  .NavBar .NavIn .Menu {
+    display: block;
+  }
+}
+
+.NavBar .NavIn .Menu button {
+  height: 40px;
+  width: 100px;
+  font-size: 18px;
+  color: white;
+  background-color: #5d5c5c;
+}
+
+.NavBar1 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 18px;
+  color: white;
+  position: fixed;
+  -webkit-transform: translateY(-450px);
+          transform: translateY(-450px);
+  -webkit-transition: 1s;
+  transition: 1s;
+  z-index: 1000;
+}
+
+@media (min-width: 980px) {
+  .NavBar1 {
+    display: none;
+  }
+}
+
+.NavBar1 .NavBar1In {
+  width: 95%;
+  min-width: 500px;
+  background-color: #25434D;
+  padding: 10px 0px;
+  border-radius: 15px;
+  border: 2px solid black;
+}
+
+.NavBar1 .NavBar1In .listServices ul {
+  list-style: none;
+}
+
+.NavBar1 .NavBar1In .listServices ul li {
+  margin: 20px 0px;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+
+.NavBar1 .NavBar1In .listServices ul li select {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.NavBar1 .NavBar1In .listServices ul li select option {
+  color: black;
+}
+
+.FirstPage {
+  height: 100vh;
+  width: 100vw;
+  margin-bottom: 30px;
+}
+
+.FirstPage .firsthalf {
+  width: 100%;
+  height: 70%;
+  background-color: #EBF5F7;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 16px;
+}
+
+@media (max-width: 850px) {
+  .FirstPage .firsthalf {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 710px) {
+  .FirstPage .firsthalf {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 630px) {
+  .FirstPage .firsthalf {
+    font-size: 11px;
+  }
+}
+
+.FirstPage .firsthalf .txt {
+  height: 100%;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+@media (max-width: 600px) {
+  .FirstPage .firsthalf .txt {
+    width: 100%;
+  }
+}
+
+.FirstPage .firsthalf .txt .txt1 {
+  font-size: 2.8em;
+  font-weight: bold;
+  line-height: 53px;
+  margin-top: 65px;
+}
+
+@media (max-width: 850px) {
+  .FirstPage .firsthalf .txt .txt1 {
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .FirstPage .firsthalf .txt .txt1 {
+    font-size: 2.2em;
+    line-height: 30px;
+  }
+}
+
+.FirstPage .firsthalf .txt .Discover {
+  font-size: 1.2em;
+  margin-top: -30px;
+}
+
+.FirstPage .firsthalf .image {
+  height: 100%;
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .FirstPage .firsthalf .image {
+    width: 100%;
+  }
+}
+
+.FirstPage .firsthalf .image .pic {
+  height: 78%;
+  width: 90%;
+  background-image: url("/src/images/fatherAnddoted.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  margin-top: 15px;
+}
+
+.FirstPage .secondhalf {
+  width: 100%;
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 100px;
+  position: relative;
+}
+
+.FirstPage .secondhalf .outers {
+  height: 100%;
+  width: 90%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: -45px;
+}
+
+@media (max-width: 680px) {
+  .FirstPage .secondhalf .outers {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
+
+.FirstPage .secondhalf .outers .listing {
+  height: 100%;
+  width: 25%;
+  border: 2px solid rgba(0, 0, 0, 0.171);
+  padding: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  font-size: 16px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+@media (max-width: 960px) {
+  .FirstPage .secondhalf .outers .listing {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 730px) {
+  .FirstPage .secondhalf .outers .listing {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 680px) {
+  .FirstPage .secondhalf .outers .listing {
+    width: 100%;
+    font-size: 15px;
+  }
+}
+
+.FirstPage .secondhalf .outers .listing > * {
+  margin-bottom: 15px;
+}
+
+.FirstPage .secondhalf .outers .listing:hover {
+  background-color: #25434D;
+  color: white;
+}
+
+.FirstPage .secondhalf .outers .listing:hover .circle,
+.FirstPage .secondhalf .outers .listing:hover .arrow {
+  background: #A7E8E0;
+  color: black;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.FirstPage .secondhalf .outers .listing:hover .arrow {
+  background: none;
+  color: #A7E8E0;
+}
+
+.FirstPage .secondhalf .outers .listing h2,
+.FirstPage .secondhalf .outers .listing h6 {
+  font-size: 1.8em;
+}
+
+.FirstPage .secondhalf .outers .listing .circle {
+  background: #d6d7d8;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
